@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio - Basict</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar active-navbar-mobile">
+
+      <div class="brand">
+         <img src="/img/logo.png" class="logo" alt="Logo Porfolio" />
+        </div>
+      <div class="nav-list">
+            <ul>
+                <li>Home</li>
+                <li>Skill</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+      <div class="social-icons">
+            <ul>
+                <li> <i class="fa fa-instagram"></i> </li>
+                <li> <i class="fa fa-twitter"></i> </li>
+                <li> <i class="fa fa-github"></i> </li>
+                <li> <i class="fa fa-linkedin"></i> </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="toggle-btn">
+      <i class="fa fa-bars"></i>
+    </div>
+
+    <header class="header container">
+      <div class="circle"></div>
+      <div class="row hero">
+        <div class="col col-1">
+          <h1>Hey, I'm a <span class="hightlight"> Front-End</span>  web developer.</h1>
+          <p>Hi i'm Jhon Doe freelance website design from San Francisco i help brands turn their ideas into hight quality website</p>
+          <a href="" class="cta">Contact</a>
+        </div>
+        <div class="col col-2">
+          <div class="hero-img">
+            <img src="/img/profile.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="skills container">
+      <div class="title">
+        <h3>My Skills</h3>
+        <h1>My Experience</h1>
+      </div>
+
+      <div class="grid-wrapper">
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="/img/skill-1.png" alt="">
+            <h2>Reponsive Website Design</h2>
+          </div>
+          <p>
+            <span class="hightlight">Design Title </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem tempora porro accusamus quae! Repellat dignissimos enim nulla et officia, veniam repudiandae aspernatur. Necessitatibus exercitationem expedita, quidem fugiat odit animi!</p>
+        </div>
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="/img/skill-2.png" alt="">
+            <h2>Reponsive Website Design</h2>
+          </div>
+          <p>
+            <span class="hightlight">Design Title </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem tempora porro accusamus quae! Repellat dignissimos enim nulla et officia, veniam repudiandae aspernatur. Necessitatibus exercitationem expedita, quidem fugiat odit animi!</p>
+        </div>
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="/img/skill-3.png" alt="">
+            <h2>Reponsive Website Design</h2>
+          </div>
+          <p>
+            <span class="hightlight">Design Title </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem tempora porro accusamus quae! Repellat dignissimos enim nulla et officia, veniam repudiandae aspernatur. Necessitatibus exercitationem expedita, quidem fugiat odit animi!</p>
+        </div>
+        <div class="grid-box">
+          <div class="icon-title">
+            <img src="/img/skill-4.png" alt="">
+            <h2>Reponsive Website Design</h2>
+          </div>
+          <p>
+            <span class="hightlight">Design Title </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem tempora porro accusamus quae! Repellat dignissimos enim nulla et officia, veniam repudiandae aspernatur. Necessitatibus exercitationem expedita, quidem fugiat odit animi!</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="portfolio container">
+      <div class="rectangle"> </div>
+      <div class="title">
+        <h3>Portfolio</h3>
+        <div class="cta-title">
+          <h1>All Creative Works</h1>
+          <h4>Discover all project on <span class="highlight"> Github</span>  <i class="fa fa-arrow-right"></i> </h4>
+        </div>
+      </div>
+
+      <div class="grid-wrapper">
+        <div class="grid-box">
+          <img src="/img/prj-1.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="/img/prj-2.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="/img/prj-4.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="/img/prj-3.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="/img/prj-5.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="/img/prj-2.png" alt="">
+          <div class="hover">
+            <h4>Application</h4>
+            <a href=""> Github <div class="fa fa-arrow-right"></div></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="title">
+          <h3>CRAFT AMAZING</h3>
+          <h1>Customer Testimonials</h1>
+        </div>
+
+        <div class="grid-wrapper">
+          <div class="grid-box">
+            <img src="/img/customer1.png" alt="">
+            <i class="fa fa-quote-left"></i> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quis dolorem ullam nam provident veniam ipsa tempore, at et autem soluta dicta quae! Laborum, quod? Deserunt quam fugit dolorum expedita.</p>
+            <h4>John Doe</h4>
+            <p>Marketing Manager</p>
+            <div class="rating">
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="/img/customer2.png" alt="">
+            <i class="fa fa-quote-left"></i> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quis dolorem ullam nam provident veniam ipsa tempore, at et autem soluta dicta quae! Laborum, quod? Deserunt quam fugit dolorum expedita.</p>
+            <h4>John Doe</h4>
+            <p>Marketing Manager</p>
+            <div class="rating">
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star rate-pink"></i>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="/img/customer3.png" alt="">
+            <i class="fa fa-quote-left"></i> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quis dolorem ullam nam provident veniam ipsa tempore, at et autem soluta dicta quae! Laborum, quod? Deserunt quam fugit dolorum expedita.</p>
+            <h4>John Doe</h4>
+            <p>Marketing Manager</p>
+            <div class="rating">
+              <i class="fa fa-star rate-pink"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h3>Contact me</h3>
+        <h1>Got A Project! Let's Talk</h1>
+        <h3><i class="fa fa-envelope-o"> contact.minhhoangaptechedu.gmail.com</i></h3>
+        <div class="quick-links">
+          <div class="brand">
+            <img src="/img/logo.png" alt="">
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>Skills</li>
+            <li>Service</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="copyright container ">
+      <p>Copyright to Academy</p>
+    </section>
+
+    <script>
+      let togglebtn = document.querySelector(".toggle-btn");
+      let navbar = document.querySelector(".navbar");
+
+      togglebtn.addEventListener('click', () =>{
+        navbar.classList.toggle('active-navbar-mobile')
+      })
+    </script>
+
+    
+  </body>
+</html>
