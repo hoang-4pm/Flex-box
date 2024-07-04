@@ -1,0 +1,61 @@
+@media only screen and (max-width: 700px) {
+
+    h1{
+        font-size: 30px;
+    }
+
+    .brand img{
+        position: absolute;
+        top:20px;
+        left: 20px;
+        width: 50px;
+    }
+    .navbar{
+        background-color:#e9f9ff;
+        height: 100vh;
+        flex-direction: column;
+        display:none;
+    }
+    .navbar .nav-list ul{
+        flex-direction: column;
+    }
+
+    .navbar .nav-list ul li{
+        margin-top:30px
+    }
+    .header{
+        height: 100%;
+        margin-top:120px;
+    }
+    .header .row{
+        flex-direction: column;
+    }
+    .header .row .col-1{
+        padding:20px;
+    }
+
+    .header .row .col-2 img{
+        max-width: 100%;
+    }
+    .toggle-btn i{
+        display: flex;
+    }
+    .active-navbar-mobile{
+        display: flex;
+    }
+
+    .portfolio .grid-wrapper{
+        
+        grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+        
+    }
+
+    .portfolio .grid-wrapper img{
+        width: 100%;
+    }
+
+    .portfolio .grid-box .hover{
+
+        width: 70%;
+    }
+}   
